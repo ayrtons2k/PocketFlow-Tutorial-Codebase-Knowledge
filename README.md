@@ -97,6 +97,14 @@ This is a tutorial project of [Pocket Flow](https://github.com/The-Pocket/Pocket
     # Analyze a GitHub repository
     python main.py --repo https://github.com/username/repo --include "*.py" "*.js" --exclude "tests/*" --max-size 50000
 
+    python main.py --repo https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge --include "*.py" "*.js" --exclude "tests/*" --max-size 50000
+    
+    python main.py --repo https://github.com/ardalis/CleanArchitecture/tree/main/sample --include "*.py" "*.js" "*.cs" "*.csproj" "*.http" "*.json"--exclude "tests/*" --max-size 50000
+
+    python main.py --repo https://github.com/ayrtons2k/nova-nix --include "*.*" --exclude "tests/*" --max-size 50000
+
+        
+
     # Or, analyze a local directory
     python main.py --dir /path/to/your/codebase --include "*.py" --exclude "*test*"
 
